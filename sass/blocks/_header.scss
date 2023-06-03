@@ -1,0 +1,44 @@
+.header {
+	// .header__row
+
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	// .header__text
+
+	&__text {
+		width: 466px;
+	}
+
+	// .header__title
+
+	&__title {
+		font-size: 54px;
+		margin-bottom: 25px;
+		font-weight: 700;
+		line-height: 1.46;
+
+		margin-right: -160px;
+		position: relative;
+		z-index: 9;
+	}
+
+	&__text p {
+		line-height: 1.6875;
+		margin-bottom: 1em;
+	}
+
+	// .header__img
+
+	&__img img {
+		border-radius: 40px 40px 40px 0;
+	}
+}
+
+
+.header__form {
+	margin-top: 42px; 
+}
